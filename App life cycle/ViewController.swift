@@ -10,38 +10,9 @@ import UIKit
 class ViewController: UIViewController
 {
     
-    let boolean: Bool
     override func viewDidLoad()
     {
+        self.view.backgroundColor = .yellow
         super.viewDidLoad()
-        print("viewDidLoad")
     }
-    override func viewWillAppear(_ animated: Bool)
-    {
-        print("viewWillAppear")
-    }
-    
-    override func viewWillLayoutSubviews()
-    {
-        print("viewWillLayoutSubviews")
-    }
-
-    override func viewDidLayoutSubviews()
-    {
-        print("viewDidLayoutSubviews")
-    }
-    
-    override func viewWillDisappear(_ animated: Bool)
-    {
-        print("viewWillDisappear")
-    }
-    
-    override func viewDidDisappear(_ animated: Bool)
-    {
-        print("viewDidDisappear")
-    }
-    
-
-
 }
-
